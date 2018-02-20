@@ -17,7 +17,7 @@ Important: keras 2.0 or higher is not supported as it breaks the Theano sparse m
   * pandas
   * rdflib
   
-Note: It is possible to use the TensorFlow backend of keras as well. Note that keras 1.2.1 uses the TensorFlow 0.11 API. Using TensorFlow as a backend will limit the maximum allowed size of a sparse matrix and some of the experiments might throw an error.
+Note: It is possible to use the TensorFlow backend of keras as well. Note that keras 1.2.1 uses the TensorFlow 0.11 API. Using TensorFlow as a backend will limit the maximum allowed size of a sparse matrix and therefore some of the experiments might throw an error.
 
 ## Usage
 
@@ -73,7 +73,7 @@ Create a file `~/.keras/keras.json` with the contents:
 }
 ```
 
-## Setting keras backend to Theano
+## Enforcing CPU execution
 
 
 You can enforce execution on CPU by hiding all GPU resources:
