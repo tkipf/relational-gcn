@@ -2,7 +2,9 @@
 
 Keras-based implementation of Relational Graph Convolutional Networks for semi-supervised node classification on (directed) relational graphs.
 
-For reproduction of the entity classification results in our paper [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) (2017) [1], see instructions below.
+For reproduction of the *entity classification* results in our paper [Modeling Relational Data with Graph Convolutional Networks](https://arxiv.org/abs/1703.06103) (2017) [1], see instructions below.
+
+The code for the *link prediction* task in [1] can be found in the following repository: https://github.com/MichSchli/RelationPrediction
 
 ## Installation
 
