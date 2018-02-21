@@ -62,6 +62,8 @@ python prepare_dataset.py -d am
 python train.py -d am --bases 40 --hidden 10 --l2norm 5e-4 --testing
 ```
 
+Note: Results depend on random seed and will vary between re-runs.
+
 ## Setting keras backend to Theano
 
 Create a file `~/.keras/keras.json` with the contents:
