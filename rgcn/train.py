@@ -70,6 +70,9 @@ train_mask = sample_mask(idx_train, y.shape[0])
 
 num_nodes = A[0].shape[0]
 support = len(A)
+
+# Define empty dummy feature matrix (input is ignored as we set featureless=True)
+# In case features are available, define them here and set featureless=False.
 X = sp.csr_matrix(A[0].shape)
 
 # Normalize adjacency matrices individually
